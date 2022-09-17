@@ -4,6 +4,11 @@
 //
 //  Created by ミズキ on 2022/09/17.
 //
+// 花束を作る画面。
+// 送る画面
+// メッセも同時に送れるのであればする。
+// 花を見れる画面
+// Multiper Helper
 
 import SwiftUI
 import RealityKit

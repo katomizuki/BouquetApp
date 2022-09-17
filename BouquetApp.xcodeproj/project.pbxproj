@@ -15,6 +15,8 @@
 		D3DA398A28D5913700DA1670 /* BouquetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA398928D5913700DA1670 /* BouquetAppTests.swift */; };
 		D3DA399428D5913700DA1670 /* BouquetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA399328D5913700DA1670 /* BouquetAppUITests.swift */; };
 		D3DA399628D5913700DA1670 /* BouquetAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA399528D5913700DA1670 /* BouquetAppUITestsLaunchTests.swift */; };
+		D3DA39A428D591E200DA1670 /* RealityUI in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39A328D591E200DA1670 /* RealityUI */; };
+		D3DA39A728D593CB00DA1670 /* MultipeerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39A628D593CB00DA1670 /* MultipeerHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DA39A728D593CB00DA1670 /* MultipeerHelper in Frameworks */,
+				D3DA39A428D591E200DA1670 /* RealityUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +150,10 @@
 			dependencies = (
 			);
 			name = BouquetApp;
+			packageProductDependencies = (
+				D3DA39A328D591E200DA1670 /* RealityUI */,
+				D3DA39A628D593CB00DA1670 /* MultipeerHelper */,
+			);
 			productName = BouquetApp;
 			productReference = D3DA397328D5913500DA1670 /* BouquetApp.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +226,10 @@
 				Base,
 			);
 			mainGroup = D3DA396A28D5913400DA1670;
+			packageReferences = (
+				D3DA39A228D591E200DA1670 /* XCRemoteSwiftPackageReference "RealityUI" */,
+				D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */,
+			);
 			productRefGroup = D3DA397428D5913500DA1670 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -591,6 +603,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3DA39A228D591E200DA1670 /* XCRemoteSwiftPackageReference "RealityUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/RealityUI.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/MultipeerHelper.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3DA39A328D591E200DA1670 /* RealityUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3DA39A228D591E200DA1670 /* XCRemoteSwiftPackageReference "RealityUI" */;
+			productName = RealityUI;
+		};
+		D3DA39A628D593CB00DA1670 /* MultipeerHelper */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */;
+			productName = MultipeerHelper;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D3DA396B28D5913400DA1670 /* Project object */;
 }
