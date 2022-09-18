@@ -15,7 +15,7 @@ import RealityKit
 
 struct ContentView : View {
     var body: some View {
-        Home()
+        MainARViewContainer()
             .edgesIgnoringSafeArea(.all)
             .statusBarHidden()
     }

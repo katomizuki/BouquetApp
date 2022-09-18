@@ -15,7 +15,6 @@
 		D3DA398A28D5913700DA1670 /* BouquetAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA398928D5913700DA1670 /* BouquetAppTests.swift */; };
 		D3DA399428D5913700DA1670 /* BouquetAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA399328D5913700DA1670 /* BouquetAppUITests.swift */; };
 		D3DA399628D5913700DA1670 /* BouquetAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA399528D5913700DA1670 /* BouquetAppUITestsLaunchTests.swift */; };
-		D3DA39A428D591E200DA1670 /* RealityUI in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39A328D591E200DA1670 /* RealityUI */; };
 		D3DA39A728D593CB00DA1670 /* MultipeerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39A628D593CB00DA1670 /* MultipeerHelper */; };
 		D3DA39AA28D5978A00DA1670 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39A928D5978A00DA1670 /* FirebaseAuth */; };
 		D3DA39AC28D5978A00DA1670 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39AB28D5978A00DA1670 /* FirebaseAuthCombine-Community */; };
@@ -25,6 +24,23 @@
 		D3DA39B428D5978A00DA1670 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39B328D5978A00DA1670 /* FirebaseStorage */; };
 		D3DA39B628D5978A00DA1670 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = D3DA39B528D5978A00DA1670 /* FirebaseStorageCombine-Community */; };
 		D3DA39B828D59FCE00DA1670 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39B728D59FCE00DA1670 /* Home.swift */; };
+		D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39B928D6D91C00DA1670 /* MainARView.swift */; };
+		D3DA39C128D6DBEE00DA1670 /* MainARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39C028D6DBEE00DA1670 /* MainARViewContainer.swift */; };
+		D3DA39C428D6DCA100DA1670 /* CSharp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39C328D6DCA100DA1670 /* CSharp.swift */; };
+		D3DA39C628D6EB2100DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C528D6EB2000DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz */; };
+		D3DA39C928D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C828D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz */; };
+		D3DA39CB28D6EBE000DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CA28D6EBDF00DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz */; };
+		D3DA39CD28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CC28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz */; };
+		D3DA39CF28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CE28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz */; };
+		D3DA39D128D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D028D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz */; };
+		D3DA39D328D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D228D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz */; };
+		D3DA39D528D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D428D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz */; };
+		D3DA39D728D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D628D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz */; };
+		D3DA39D928D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D828D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz */; };
+		D3DA39DB28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DA28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz */; };
+		D3DA39DD28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DC28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz */; };
+		D3DA39DF28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DE28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz */; };
+		D3DA39E128D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39E028D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +73,23 @@
 		D3DA399328D5913700DA1670 /* BouquetAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouquetAppUITests.swift; sourceTree = "<group>"; };
 		D3DA399528D5913700DA1670 /* BouquetAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouquetAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3DA39B728D59FCE00DA1670 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D3DA39B928D6D91C00DA1670 /* MainARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainARView.swift; sourceTree = "<group>"; };
+		D3DA39C028D6DBEE00DA1670 /* MainARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainARViewContainer.swift; sourceTree = "<group>"; };
+		D3DA39C328D6DCA100DA1670 /* CSharp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSharp.swift; sourceTree = "<group>"; };
+		D3DA39C528D6EB2000DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz"; sourceTree = "<group>"; };
+		D3DA39C828D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz"; sourceTree = "<group>"; };
+		D3DA39CA28D6EBDF00DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "オニユリ_Tiger_Lily_Lilium_lancifolium.usdz"; sourceTree = "<group>"; };
+		D3DA39CC28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ツクシイバラ_Tsukushi_Rose_R._m._var.usdz"; sourceTree = "<group>"; };
+		D3DA39CE28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "エゾキスゲ_Ezo_Daylily_H._l._var.usdz"; sourceTree = "<group>"; };
+		D3DA39D028D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz"; sourceTree = "<group>"; };
+		D3DA39D228D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ハマナス_Japanese_Rose_Rosa_rugosa.usdz"; sourceTree = "<group>"; };
+		D3DA39D428D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz"; sourceTree = "<group>"; };
+		D3DA39D628D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ハマボウ_Hibiscus_hamabo.usdz"; sourceTree = "<group>"; };
+		D3DA39D828D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz"; sourceTree = "<group>"; };
+		D3DA39DA28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz"; sourceTree = "<group>"; };
+		D3DA39DC28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz"; sourceTree = "<group>"; };
+		D3DA39DE28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz"; sourceTree = "<group>"; };
+		D3DA39E028D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +99,6 @@
 			files = (
 				D3DA39A728D593CB00DA1670 /* MultipeerHelper in Frameworks */,
 				D3DA39AA28D5978A00DA1670 /* FirebaseAuth in Frameworks */,
-				D3DA39A428D591E200DA1670 /* RealityUI in Frameworks */,
 				D3DA39B228D5978A00DA1670 /* FirebaseFirestoreSwift in Frameworks */,
 				D3DA39B028D5978A00DA1670 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				D3DA39B428D5978A00DA1670 /* FirebaseStorage in Frameworks */,
@@ -116,9 +148,14 @@
 		D3DA397528D5913500DA1670 /* BouquetApp */ = {
 			isa = PBXGroup;
 			children = (
+				D3DA39C728D6EB2E00DA1670 /* ARAssets */,
+				D3DA39C228D6DC8B00DA1670 /* ViewModifier */,
+				D3DA39BF28D6DBD100DA1670 /* ViewModel */,
+				D3DA39BE28D6DBC100DA1670 /* ViewParts */,
+				D3DA39BD28D6DBB500DA1670 /* ViewContainer */,
+				D3DA39BB28D6D92400DA1670 /* View */,
 				D3DA397628D5913500DA1670 /* AppDelegate.swift */,
 				D3DA397828D5913500DA1670 /* ContentView.swift */,
-				D3DA39B728D59FCE00DA1670 /* Home.swift */,
 				D3DA397A28D5913500DA1670 /* Experience.rcproject */,
 				D3DA397C28D5913700DA1670 /* Assets.xcassets */,
 				D3DA397E28D5913700DA1670 /* Preview Content */,
@@ -151,6 +188,66 @@
 			path = BouquetAppUITests;
 			sourceTree = "<group>";
 		};
+		D3DA39BB28D6D92400DA1670 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA39B728D59FCE00DA1670 /* Home.swift */,
+				D3DA39B928D6D91C00DA1670 /* MainARView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D3DA39BD28D6DBB500DA1670 /* ViewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA39C028D6DBEE00DA1670 /* MainARViewContainer.swift */,
+			);
+			path = ViewContainer;
+			sourceTree = "<group>";
+		};
+		D3DA39BE28D6DBC100DA1670 /* ViewParts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewParts;
+			sourceTree = "<group>";
+		};
+		D3DA39BF28D6DBD100DA1670 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D3DA39C228D6DC8B00DA1670 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA39C328D6DCA100DA1670 /* CSharp.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
+		D3DA39C728D6EB2E00DA1670 /* ARAssets */ = {
+			isa = PBXGroup;
+			children = (
+				D3DA39C528D6EB2000DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz */,
+				D3DA39CE28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz */,
+				D3DA39D428D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz */,
+				D3DA39CA28D6EBDF00DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz */,
+				D3DA39D028D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz */,
+				D3DA39D828D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz */,
+				D3DA39E028D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz */,
+				D3DA39D228D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz */,
+				D3DA39D628D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz */,
+				D3DA39DC28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz */,
+				D3DA39DE28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz */,
+				D3DA39DA28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz */,
+				D3DA39CC28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz */,
+				D3DA39C828D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz */,
+			);
+			path = ARAssets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -168,7 +265,6 @@
 			);
 			name = BouquetApp;
 			packageProductDependencies = (
-				D3DA39A328D591E200DA1670 /* RealityUI */,
 				D3DA39A628D593CB00DA1670 /* MultipeerHelper */,
 				D3DA39A928D5978A00DA1670 /* FirebaseAuth */,
 				D3DA39AB28D5978A00DA1670 /* FirebaseAuthCombine-Community */,
@@ -251,7 +347,6 @@
 			);
 			mainGroup = D3DA396A28D5913400DA1670;
 			packageReferences = (
-				D3DA39A228D591E200DA1670 /* XCRemoteSwiftPackageReference "RealityUI" */,
 				D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */,
 				D3DA39A828D5978A00DA1670 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
@@ -271,8 +366,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DA39D128D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz in Resources */,
+				D3DA39DB28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz in Resources */,
+				D3DA39D728D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz in Resources */,
 				D3DA398028D5913700DA1670 /* Preview Assets.xcassets in Resources */,
 				D3DA397D28D5913700DA1670 /* Assets.xcassets in Resources */,
+				D3DA39C928D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz in Resources */,
+				D3DA39CF28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz in Resources */,
+				D3DA39E128D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz in Resources */,
+				D3DA39D328D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz in Resources */,
+				D3DA39CD28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz in Resources */,
+				D3DA39D528D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz in Resources */,
+				D3DA39C628D6EB2100DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz in Resources */,
+				D3DA39CB28D6EBE000DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz in Resources */,
+				D3DA39D928D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz in Resources */,
+				D3DA39DF28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz in Resources */,
+				D3DA39DD28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,10 +406,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3DA39C128D6DBEE00DA1670 /* MainARViewContainer.swift in Sources */,
 				D3DA397928D5913500DA1670 /* ContentView.swift in Sources */,
 				D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */,
 				D3DA39B828D59FCE00DA1670 /* Home.swift in Sources */,
 				D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */,
+				D3DA39C428D6DCA100DA1670 /* CSharp.swift in Sources */,
+				D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -631,14 +743,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		D3DA39A228D591E200DA1670 /* XCRemoteSwiftPackageReference "RealityUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/maxxfrazer/RealityUI.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maxxfrazer/MultipeerHelper.git";
@@ -658,11 +762,6 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D3DA39A328D591E200DA1670 /* RealityUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D3DA39A228D591E200DA1670 /* XCRemoteSwiftPackageReference "RealityUI" */;
-			productName = RealityUI;
-		};
 		D3DA39A628D593CB00DA1670 /* MultipeerHelper */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */;
