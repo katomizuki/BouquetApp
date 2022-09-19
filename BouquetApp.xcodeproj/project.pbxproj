@@ -24,6 +24,11 @@
 		D32D35FB28D848610094170D /* ezoshikashiyuri.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35FA28D848610094170D /* ezoshikashiyuri.scn */; };
 		D32D35FD28D849770094170D /* FlowerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FC28D849770094170D /* FlowerList.swift */; };
 		D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */; };
+		D32D360128D86BEB0094170D /* FlowerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360028D86BEB0094170D /* FlowerDetailViewModel.swift */; };
+		D32D360328D86BFB0094170D /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360228D86BFB0094170D /* Flower.swift */; };
+		D32D360628D86C6C0094170D /* PropertiesFlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360528D86C6C0094170D /* PropertiesFlowerView.swift */; };
+		D32D360828D86D7D0094170D /* FlowerDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360728D86D7D0094170D /* FlowerDetailHeaderView.swift */; };
+		D32D360A28D8745F0094170D /* CustomFlowerSeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360928D8745F0094170D /* CustomFlowerSeaker.swift */; };
 		D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397628D5913500DA1670 /* AppDelegate.swift */; };
 		D3DA397928D5913500DA1670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397828D5913500DA1670 /* ContentView.swift */; };
 		D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397A28D5913500DA1670 /* Experience.rcproject */; };
@@ -95,6 +100,11 @@
 		D32D35FA28D848610094170D /* ezoshikashiyuri.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ezoshikashiyuri.scn; sourceTree = "<group>"; };
 		D32D35FC28D849770094170D /* FlowerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerList.swift; sourceTree = "<group>"; };
 		D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowerSceneView.swift; sourceTree = "<group>"; };
+		D32D360028D86BEB0094170D /* FlowerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailViewModel.swift; sourceTree = "<group>"; };
+		D32D360228D86BFB0094170D /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flower.swift; path = "../New Group/Flower.swift"; sourceTree = "<group>"; };
+		D32D360528D86C6C0094170D /* PropertiesFlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesFlowerView.swift; sourceTree = "<group>"; };
+		D32D360728D86D7D0094170D /* FlowerDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailHeaderView.swift; sourceTree = "<group>"; };
+		D32D360928D8745F0094170D /* CustomFlowerSeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowerSeaker.swift; sourceTree = "<group>"; };
 		D3DA397328D5913500DA1670 /* BouquetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouquetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DA397628D5913500DA1670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3DA397828D5913500DA1670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -187,6 +197,14 @@
 			path = ScnAssets;
 			sourceTree = "<group>";
 		};
+		D32D360428D86C020094170D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D32D360228D86BFB0094170D /* Flower.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D3DA396A28D5913400DA1670 = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +228,7 @@
 		D3DA397528D5913500DA1670 /* BouquetApp */ = {
 			isa = PBXGroup;
 			children = (
+				D32D360428D86C020094170D /* Model */,
 				D32D35E128D8440C0094170D /* ScnAssets */,
 				D32D35DA28D840310094170D /* Manager */,
 				D32D35D828D83F9C0094170D /* GoogleService-Info.plist */,
@@ -275,6 +294,9 @@
 			isa = PBXGroup;
 			children = (
 				D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */,
+				D32D360528D86C6C0094170D /* PropertiesFlowerView.swift */,
+				D32D360728D86D7D0094170D /* FlowerDetailHeaderView.swift */,
+				D32D360928D8745F0094170D /* CustomFlowerSeaker.swift */,
 			);
 			path = ViewParts;
 			sourceTree = "<group>";
@@ -282,6 +304,7 @@
 		D3DA39BF28D6DBD100DA1670 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D32D360028D86BEB0094170D /* FlowerDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -488,12 +511,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D32D360828D86D7D0094170D /* FlowerDetailHeaderView.swift in Sources */,
 				D3DA39C128D6DBEE00DA1670 /* MainARViewContainer.swift in Sources */,
 				D3DA397928D5913500DA1670 /* ContentView.swift in Sources */,
+				D32D360128D86BEB0094170D /* FlowerDetailViewModel.swift in Sources */,
 				D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */,
 				D3DA39B828D59FCE00DA1670 /* Home.swift in Sources */,
+				D32D360328D86BFB0094170D /* Flower.swift in Sources */,
 				D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */,
+				D32D360A28D8745F0094170D /* CustomFlowerSeaker.swift in Sources */,
 				D3DA39C428D6DCA100DA1670 /* CSharp.swift in Sources */,
+				D32D360628D86C6C0094170D /* PropertiesFlowerView.swift in Sources */,
 				D32D35FD28D849770094170D /* FlowerList.swift in Sources */,
 				D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */,
 				D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */,
