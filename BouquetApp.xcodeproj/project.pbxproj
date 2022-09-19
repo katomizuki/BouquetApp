@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D32D35D928D83F9C0094170D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D32D35D828D83F9C0094170D /* GoogleService-Info.plist */; };
+		D32D35E028D843DA0094170D /* higanbana.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35DF28D843DA0094170D /* higanbana.scn */; };
+		D32D35E328D8446C0094170D /* ezokisuge.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35E228D8446C0094170D /* ezokisuge.scn */; };
+		D32D35E528D8451B0094170D /* yabukanzo.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35E428D8451B0094170D /* yabukanzo.scn */; };
+		D32D35E728D845570094170D /* oniyuri.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35E628D845570094170D /* oniyuri.scn */; };
+		D32D35E928D845FC0094170D /* isotutudi.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35E828D845FC0094170D /* isotutudi.scn */; };
+		D32D35EB28D846220094170D /* yamatutudi.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35EA28D846220094170D /* yamatutudi.scn */; };
+		D32D35ED28D846A30094170D /* kusaichigo.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35EC28D846A30094170D /* kusaichigo.scn */; };
+		D32D35EF28D846DC0094170D /* hanamasu.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35EE28D846DC0094170D /* hanamasu.scn */; };
+		D32D35F128D847120094170D /* hamaboh.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F028D847120094170D /* hamaboh.scn */; };
+		D32D35F328D847530094170D /* satsuki.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F228D847530094170D /* satsuki.scn */; };
+		D32D35F528D847820094170D /* hiradotutuji.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F428D847820094170D /* hiradotutuji.scn */; };
+		D32D35F728D847DE0094170D /* umanoashigata.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F628D847DE0094170D /* umanoashigata.scn */; };
+		D32D35F928D848150094170D /* tsukushibara.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F828D848150094170D /* tsukushibara.scn */; };
+		D32D35FB28D848610094170D /* ezoshikashiyuri.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35FA28D848610094170D /* ezoshikashiyuri.scn */; };
+		D32D35FD28D849770094170D /* FlowerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FC28D849770094170D /* FlowerList.swift */; };
+		D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */; };
 		D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397628D5913500DA1670 /* AppDelegate.swift */; };
 		D3DA397928D5913500DA1670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397828D5913500DA1670 /* ContentView.swift */; };
 		D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397A28D5913500DA1670 /* Experience.rcproject */; };
@@ -27,20 +44,20 @@
 		D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39B928D6D91C00DA1670 /* MainARView.swift */; };
 		D3DA39C128D6DBEE00DA1670 /* MainARViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39C028D6DBEE00DA1670 /* MainARViewContainer.swift */; };
 		D3DA39C428D6DCA100DA1670 /* CSharp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA39C328D6DCA100DA1670 /* CSharp.swift */; };
-		D3DA39C628D6EB2100DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C528D6EB2000DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz */; };
-		D3DA39C928D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C828D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz */; };
-		D3DA39CB28D6EBE000DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CA28D6EBDF00DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz */; };
-		D3DA39CD28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CC28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz */; };
-		D3DA39CF28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CE28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz */; };
-		D3DA39D128D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D028D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz */; };
-		D3DA39D328D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D228D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz */; };
-		D3DA39D528D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D428D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz */; };
-		D3DA39D728D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D628D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz */; };
-		D3DA39D928D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D828D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz */; };
-		D3DA39DB28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DA28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz */; };
-		D3DA39DD28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DC28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz */; };
-		D3DA39DF28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DE28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz */; };
-		D3DA39E128D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39E028D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz */; };
+		D3DA39C628D6EB2100DA1670 /* higanbana.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C528D6EB2000DA1670 /* higanbana.usdz */; };
+		D3DA39C928D6EBB100DA1670 /* ezoshikashiyuri.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C828D6EBB100DA1670 /* ezoshikashiyuri.usdz */; };
+		D3DA39CB28D6EBE000DA1670 /* oniyuri.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */; };
+		D3DA39CD28D6EC4900DA1670 /* tsukushibara.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CC28D6EC4900DA1670 /* tsukushibara.usdz */; };
+		D3DA39CF28D6EC6A00DA1670 /* ezokisuge.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CE28D6EC6A00DA1670 /* ezokisuge.usdz */; };
+		D3DA39D128D6EC9000DA1670 /* isotutudi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */; };
+		D3DA39D328D6ECAC00DA1670 /* hanamasu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D228D6ECAC00DA1670 /* hanamasu.usdz */; };
+		D3DA39D528D6ECD000DA1670 /* yazukanzo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */; };
+		D3DA39D728D6ECFF00DA1670 /* hamaboh.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */; };
+		D3DA39D928D6ED2500DA1670 /* yamatutudi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */; };
+		D3DA39DB28D6ED5900DA1670 /* umanoashigata.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */; };
+		D3DA39DD28D6ED6300DA1670 /* satsuki.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DC28D6ED6300DA1670 /* satsuki.usdz */; };
+		D3DA39DF28D6EDA400DA1670 /* hiradotutuji.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DE28D6EDA400DA1670 /* hiradotutuji.usdz */; };
+		D3DA39E128D6EDC800DA1670 /* kusaichigo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +78,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D32D35D828D83F9C0094170D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D32D35DF28D843DA0094170D /* higanbana.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = higanbana.scn; sourceTree = "<group>"; };
+		D32D35E228D8446C0094170D /* ezokisuge.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ezokisuge.scn; sourceTree = "<group>"; };
+		D32D35E428D8451B0094170D /* yabukanzo.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = yabukanzo.scn; sourceTree = "<group>"; };
+		D32D35E628D845570094170D /* oniyuri.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = oniyuri.scn; sourceTree = "<group>"; };
+		D32D35E828D845FC0094170D /* isotutudi.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = isotutudi.scn; sourceTree = "<group>"; };
+		D32D35EA28D846220094170D /* yamatutudi.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = yamatutudi.scn; sourceTree = "<group>"; };
+		D32D35EC28D846A30094170D /* kusaichigo.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = kusaichigo.scn; sourceTree = "<group>"; };
+		D32D35EE28D846DC0094170D /* hanamasu.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = hanamasu.scn; path = BouquetApp/UsdzAssets/hanamasu.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F028D847120094170D /* hamaboh.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = hamaboh.scn; path = BouquetApp/UsdzAssets/hamaboh.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F228D847530094170D /* satsuki.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = satsuki.scn; path = BouquetApp/UsdzAssets/satsuki.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F428D847820094170D /* hiradotutuji.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = hiradotutuji.scn; path = BouquetApp/UsdzAssets/hiradotutuji.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F628D847DE0094170D /* umanoashigata.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = umanoashigata.scn; path = BouquetApp/UsdzAssets/umanoashigata.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F828D848150094170D /* tsukushibara.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = tsukushibara.scn; path = BouquetApp/UsdzAssets/tsukushibara.scn; sourceTree = SOURCE_ROOT; };
+		D32D35FA28D848610094170D /* ezoshikashiyuri.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ezoshikashiyuri.scn; sourceTree = "<group>"; };
+		D32D35FC28D849770094170D /* FlowerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerList.swift; sourceTree = "<group>"; };
+		D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowerSceneView.swift; sourceTree = "<group>"; };
 		D3DA397328D5913500DA1670 /* BouquetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouquetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DA397628D5913500DA1670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3DA397828D5913500DA1670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,20 +110,20 @@
 		D3DA39B928D6D91C00DA1670 /* MainARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainARView.swift; sourceTree = "<group>"; };
 		D3DA39C028D6DBEE00DA1670 /* MainARViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainARViewContainer.swift; sourceTree = "<group>"; };
 		D3DA39C328D6DCA100DA1670 /* CSharp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSharp.swift; sourceTree = "<group>"; };
-		D3DA39C528D6EB2000DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz"; sourceTree = "<group>"; };
-		D3DA39C828D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz"; sourceTree = "<group>"; };
-		D3DA39CA28D6EBDF00DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "オニユリ_Tiger_Lily_Lilium_lancifolium.usdz"; sourceTree = "<group>"; };
-		D3DA39CC28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ツクシイバラ_Tsukushi_Rose_R._m._var.usdz"; sourceTree = "<group>"; };
-		D3DA39CE28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "エゾキスゲ_Ezo_Daylily_H._l._var.usdz"; sourceTree = "<group>"; };
-		D3DA39D028D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz"; sourceTree = "<group>"; };
-		D3DA39D228D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ハマナス_Japanese_Rose_Rosa_rugosa.usdz"; sourceTree = "<group>"; };
-		D3DA39D428D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz"; sourceTree = "<group>"; };
-		D3DA39D628D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ハマボウ_Hibiscus_hamabo.usdz"; sourceTree = "<group>"; };
-		D3DA39D828D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz"; sourceTree = "<group>"; };
-		D3DA39DA28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz"; sourceTree = "<group>"; };
-		D3DA39DC28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz"; sourceTree = "<group>"; };
-		D3DA39DE28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz"; sourceTree = "<group>"; };
-		D3DA39E028D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz"; sourceTree = "<group>"; };
+		D3DA39C528D6EB2000DA1670 /* higanbana.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = higanbana.usdz; sourceTree = "<group>"; };
+		D3DA39C828D6EBB100DA1670 /* ezoshikashiyuri.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ezoshikashiyuri.usdz; sourceTree = "<group>"; };
+		D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = oniyuri.usdz; sourceTree = "<group>"; };
+		D3DA39CC28D6EC4900DA1670 /* tsukushibara.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tsukushibara.usdz; sourceTree = "<group>"; };
+		D3DA39CE28D6EC6A00DA1670 /* ezokisuge.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ezokisuge.usdz; sourceTree = "<group>"; };
+		D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = isotutudi.usdz; sourceTree = "<group>"; };
+		D3DA39D228D6ECAC00DA1670 /* hanamasu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hanamasu.usdz; sourceTree = "<group>"; };
+		D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = yazukanzo.usdz; sourceTree = "<group>"; };
+		D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hamaboh.usdz; sourceTree = "<group>"; };
+		D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = yamatutudi.usdz; sourceTree = "<group>"; };
+		D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = umanoashigata.usdz; sourceTree = "<group>"; };
+		D3DA39DC28D6ED6300DA1670 /* satsuki.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = satsuki.usdz; sourceTree = "<group>"; };
+		D3DA39DE28D6EDA400DA1670 /* hiradotutuji.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hiradotutuji.usdz; sourceTree = "<group>"; };
+		D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = kusaichigo.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +159,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D32D35DA28D840310094170D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D32D35E128D8440C0094170D /* ScnAssets */ = {
+			isa = PBXGroup;
+			children = (
+				D32D35F828D848150094170D /* tsukushibara.scn */,
+				D32D35F628D847DE0094170D /* umanoashigata.scn */,
+				D32D35F428D847820094170D /* hiradotutuji.scn */,
+				D32D35F228D847530094170D /* satsuki.scn */,
+				D32D35F028D847120094170D /* hamaboh.scn */,
+				D32D35EE28D846DC0094170D /* hanamasu.scn */,
+				D32D35DF28D843DA0094170D /* higanbana.scn */,
+				D32D35E228D8446C0094170D /* ezokisuge.scn */,
+				D32D35EC28D846A30094170D /* kusaichigo.scn */,
+				D32D35E628D845570094170D /* oniyuri.scn */,
+				D32D35E828D845FC0094170D /* isotutudi.scn */,
+				D32D35FA28D848610094170D /* ezoshikashiyuri.scn */,
+				D32D35E428D8451B0094170D /* yabukanzo.scn */,
+				D32D35EA28D846220094170D /* yamatutudi.scn */,
+			);
+			path = ScnAssets;
+			sourceTree = "<group>";
+		};
 		D3DA396A28D5913400DA1670 = {
 			isa = PBXGroup;
 			children = (
@@ -148,7 +210,10 @@
 		D3DA397528D5913500DA1670 /* BouquetApp */ = {
 			isa = PBXGroup;
 			children = (
-				D3DA39C728D6EB2E00DA1670 /* ARAssets */,
+				D32D35E128D8440C0094170D /* ScnAssets */,
+				D32D35DA28D840310094170D /* Manager */,
+				D32D35D828D83F9C0094170D /* GoogleService-Info.plist */,
+				D3DA39C728D6EB2E00DA1670 /* UsdzAssets */,
 				D3DA39C228D6DC8B00DA1670 /* ViewModifier */,
 				D3DA39BF28D6DBD100DA1670 /* ViewModel */,
 				D3DA39BE28D6DBC100DA1670 /* ViewParts */,
@@ -193,6 +258,7 @@
 			children = (
 				D3DA39B728D59FCE00DA1670 /* Home.swift */,
 				D3DA39B928D6D91C00DA1670 /* MainARView.swift */,
+				D32D35FC28D849770094170D /* FlowerList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +274,7 @@
 		D3DA39BE28D6DBC100DA1670 /* ViewParts */ = {
 			isa = PBXGroup;
 			children = (
+				D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */,
 			);
 			path = ViewParts;
 			sourceTree = "<group>";
@@ -227,25 +294,25 @@
 			path = ViewModifier;
 			sourceTree = "<group>";
 		};
-		D3DA39C728D6EB2E00DA1670 /* ARAssets */ = {
+		D3DA39C728D6EB2E00DA1670 /* UsdzAssets */ = {
 			isa = PBXGroup;
 			children = (
-				D3DA39C528D6EB2000DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz */,
-				D3DA39CE28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz */,
-				D3DA39D428D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz */,
-				D3DA39CA28D6EBDF00DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz */,
-				D3DA39D028D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz */,
-				D3DA39D828D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz */,
-				D3DA39E028D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz */,
-				D3DA39D228D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz */,
-				D3DA39D628D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz */,
-				D3DA39DC28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz */,
-				D3DA39DE28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz */,
-				D3DA39DA28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz */,
-				D3DA39CC28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz */,
-				D3DA39C828D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz */,
+				D3DA39C528D6EB2000DA1670 /* higanbana.usdz */,
+				D3DA39CE28D6EC6A00DA1670 /* ezokisuge.usdz */,
+				D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */,
+				D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */,
+				D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */,
+				D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */,
+				D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */,
+				D3DA39D228D6ECAC00DA1670 /* hanamasu.usdz */,
+				D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */,
+				D3DA39DC28D6ED6300DA1670 /* satsuki.usdz */,
+				D3DA39DE28D6EDA400DA1670 /* hiradotutuji.usdz */,
+				D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */,
+				D3DA39CC28D6EC4900DA1670 /* tsukushibara.usdz */,
+				D3DA39C828D6EBB100DA1670 /* ezoshikashiyuri.usdz */,
 			);
-			path = ARAssets;
+			path = UsdzAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -366,22 +433,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3DA39D128D6EC9000DA1670 /* イソツツジ_Marsh_Labrador_Herb_Ledum_palustre.usdz in Resources */,
-				D3DA39DB28D6ED5900DA1670 /* ウマノアシガタ_Japanese_Buttercup_Ranunculus_japonicus.usdz in Resources */,
-				D3DA39D728D6ECFF00DA1670 /* ハマボウ_Hibiscus_hamabo.usdz in Resources */,
+				D3DA39D128D6EC9000DA1670 /* isotutudi.usdz in Resources */,
+				D3DA39DB28D6ED5900DA1670 /* umanoashigata.usdz in Resources */,
+				D32D35E028D843DA0094170D /* higanbana.scn in Resources */,
+				D3DA39D728D6ECFF00DA1670 /* hamaboh.usdz in Resources */,
+				D32D35D928D83F9C0094170D /* GoogleService-Info.plist in Resources */,
 				D3DA398028D5913700DA1670 /* Preview Assets.xcassets in Resources */,
+				D32D35F328D847530094170D /* satsuki.scn in Resources */,
+				D32D35EB28D846220094170D /* yamatutudi.scn in Resources */,
+				D32D35F928D848150094170D /* tsukushibara.scn in Resources */,
+				D32D35ED28D846A30094170D /* kusaichigo.scn in Resources */,
+				D32D35EF28D846DC0094170D /* hanamasu.scn in Resources */,
 				D3DA397D28D5913700DA1670 /* Assets.xcassets in Resources */,
-				D3DA39C928D6EBB100DA1670 /* エゾスカシユリ_Siberian_Lily_Lilium_pensylvanicum.usdz in Resources */,
-				D3DA39CF28D6EC6A00DA1670 /* エゾキスゲ_Ezo_Daylily_H._l._var.usdz in Resources */,
-				D3DA39E128D6EDC800DA1670 /* クサイチゴ_Hirsute_Raspberry_Rubus_hirsutus.usdz in Resources */,
-				D3DA39D328D6ECAC00DA1670 /* ハマナス_Japanese_Rose_Rosa_rugosa.usdz in Resources */,
-				D3DA39CD28D6EC4900DA1670 /* ツクシイバラ_Tsukushi_Rose_R._m._var.usdz in Resources */,
-				D3DA39D528D6ECD000DA1670 /* ヤブカンゾウ_Tawny_daylily_H._fulva_var.usdz in Resources */,
-				D3DA39C628D6EB2100DA1670 /* ヒガンバナ_Red_Spider_Lily_Lycoris_radiata.usdz in Resources */,
-				D3DA39CB28D6EBE000DA1670 /* オニユリ_Tiger_Lily_Lilium_lancifolium.usdz in Resources */,
-				D3DA39D928D6ED2500DA1670 /* ヤマツツジ類_Azalea_Rhododendron_kaempferi.usdz in Resources */,
-				D3DA39DF28D6EDA400DA1670 /* ヒラドツツジ_Hirado_Azalea_Rhododendron_x_pulchrum.usdz in Resources */,
-				D3DA39DD28D6ED6300DA1670 /* サツキ_Satsuki_Azalea_Rhododendron_indicum.usdz in Resources */,
+				D32D35E728D845570094170D /* oniyuri.scn in Resources */,
+				D32D35F728D847DE0094170D /* umanoashigata.scn in Resources */,
+				D32D35E328D8446C0094170D /* ezokisuge.scn in Resources */,
+				D3DA39C928D6EBB100DA1670 /* ezoshikashiyuri.usdz in Resources */,
+				D32D35FB28D848610094170D /* ezoshikashiyuri.scn in Resources */,
+				D32D35F528D847820094170D /* hiradotutuji.scn in Resources */,
+				D3DA39CF28D6EC6A00DA1670 /* ezokisuge.usdz in Resources */,
+				D3DA39E128D6EDC800DA1670 /* kusaichigo.usdz in Resources */,
+				D32D35E528D8451B0094170D /* yabukanzo.scn in Resources */,
+				D3DA39D328D6ECAC00DA1670 /* hanamasu.usdz in Resources */,
+				D32D35F128D847120094170D /* hamaboh.scn in Resources */,
+				D3DA39CD28D6EC4900DA1670 /* tsukushibara.usdz in Resources */,
+				D3DA39D528D6ECD000DA1670 /* yazukanzo.usdz in Resources */,
+				D3DA39C628D6EB2100DA1670 /* higanbana.usdz in Resources */,
+				D3DA39CB28D6EBE000DA1670 /* oniyuri.usdz in Resources */,
+				D3DA39D928D6ED2500DA1670 /* yamatutudi.usdz in Resources */,
+				D3DA39DF28D6EDA400DA1670 /* hiradotutuji.usdz in Resources */,
+				D3DA39DD28D6ED6300DA1670 /* satsuki.usdz in Resources */,
+				D32D35E928D845FC0094170D /* isotutudi.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,7 +494,9 @@
 				D3DA39B828D59FCE00DA1670 /* Home.swift in Sources */,
 				D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */,
 				D3DA39C428D6DCA100DA1670 /* CSharp.swift in Sources */,
+				D32D35FD28D849770094170D /* FlowerList.swift in Sources */,
 				D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */,
+				D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,8 +663,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,9 +671,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mizuki.BouquetApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -610,8 +696,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -619,9 +704,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mizuki.BouquetApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
