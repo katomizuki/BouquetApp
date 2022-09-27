@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct PropertiesFlowerView: View {
+    @ObservedObject var viewModel: FlowerDetailViewModel
+    @EnvironmentObject var arSceneManager: ARSceneManager
+    @Binding var isShowFullModal: Bool
     
     var body: some View {
         VStack {
@@ -37,7 +40,8 @@ struct PropertiesFlowerView: View {
             
             HStack(alignment: .top) {
                 Button {
-                    
+                    arSceneManager.onTapDecideButton(flower: viewModel.flower)
+                    isShowFullModal.toggle()
                 } label: {
                     VStack(spacing: 12) {
                         Image(systemName: "plus.square.dashed")

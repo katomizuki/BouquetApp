@@ -2,36 +2,29 @@
 //  FlowerList.swift
 //  BouquetApp
 //
-//  Created by ミズキ on 2022/09/19.
+//  Created by ミズキ on 2022/09/22.
 //
 
-import SceneKit
 import SwiftUI
 
 struct FlowerList: View {
-    @GestureState var offset: CGFloat = 0
-    @StateObject private var viewModel: FlowerDetailViewModel = FlowerDetailViewModel()
+    @State private var path: [Flower] = []
+    @Binding var isShowFullModal: Bool
+    private let flowers: Flowers = Flowers()
     
-    // MARK: View Properties
     var body: some View {
-        ScrollView(.vertical,
-                   showsIndicators: false) {
-            VStack {
-                FlowerDetailHeaderView(viewModel: viewModel)
-                // MARK: - 3D Preview
-                CustomFlowerSceneView(scene: $viewModel.scene)
-                    .frame(height: 350)
-                    .padding(.top, -50)
-                    .padding(.bottom, -15)
-                    .zIndex(-10)
-                
-                CustomFlowerSeaker(offset: offset,
-                                   viewModel: viewModel)
-                
-                PropertiesFlowerView()
+        NavigationStack(path: $path) {
+            List(flowers.list) { flower in
+                        NavigationLink(value: flower) {
+                            Text(flower.name)
+                                .fontWeight(.semibold)
+                        }
             }
-            .padding()
+            .navigationTitle("Flowers")
+            .navigationDestination(for: Flower.self) { flower in
+                FlowerDetail(viewModel: FlowerDetailViewModel(flower: flower),
+                             isShowFullModal: $isShowFullModal)
+            }
         }
-        .preferredColorScheme(.dark)
     }
 }

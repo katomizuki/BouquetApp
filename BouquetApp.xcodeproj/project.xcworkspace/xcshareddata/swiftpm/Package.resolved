@@ -28,6 +28,15 @@
       }
     },
     {
+      "identity" : "focusentity",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxxfrazer/FocusEntity.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a3363f33321843d49352bd0e3d99e66a6560665c"
+      }
+    },
+    {
       "identity" : "googleappmeasurement",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleAppMeasurement.git",

@@ -6,7 +6,6 @@
 //
 // 花束を作る画面。
 // 送る画面
-// メッセも同時に送れるのであればする。
 // 花を見れる画面
 // Multiper Helper
 
@@ -14,10 +13,33 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    @State private var isShowFullModal: Bool = false
+    @EnvironmentObject var arSceneManager: ARSceneManager
     var body: some View {
-        FlowerList()
-            .edgesIgnoringSafeArea(.all)
-            .statusBarHidden()
+        ZStack(alignment: .bottom) {
+            MainARViewContainer()
+            if !arSceneManager.isSelectedModel {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        self.isShowFullModal = true
+                    }, label: {
+                        Image(systemName: "plus.circle.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.white)
+                    })
+                    Spacer()
+                }
+                .padding()
+                .padding(.bottom, 10)
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+        .statusBarHidden()
+        .fullScreenCover(isPresented: $isShowFullModal) {
+            FlowerList(isShowFullModal: $isShowFullModal)
+        }
     }
 }
 

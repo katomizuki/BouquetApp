@@ -6,7 +6,8 @@
 //
 
 
-struct Flower {
+struct Flower: Hashable, Identifiable {
     let name: String
     let description: String
+    let id: Int
 }

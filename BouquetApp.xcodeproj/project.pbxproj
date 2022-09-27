@@ -15,20 +15,25 @@
 		D32D35E928D845FC0094170D /* isotutudi.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35E828D845FC0094170D /* isotutudi.scn */; };
 		D32D35EB28D846220094170D /* yamatutudi.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35EA28D846220094170D /* yamatutudi.scn */; };
 		D32D35ED28D846A30094170D /* kusaichigo.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35EC28D846A30094170D /* kusaichigo.scn */; };
-		D32D35EF28D846DC0094170D /* hanamasu.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35EE28D846DC0094170D /* hanamasu.scn */; };
 		D32D35F128D847120094170D /* hamaboh.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F028D847120094170D /* hamaboh.scn */; };
-		D32D35F328D847530094170D /* satsuki.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F228D847530094170D /* satsuki.scn */; };
-		D32D35F528D847820094170D /* hiradotutuji.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F428D847820094170D /* hiradotutuji.scn */; };
 		D32D35F728D847DE0094170D /* umanoashigata.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F628D847DE0094170D /* umanoashigata.scn */; };
-		D32D35F928D848150094170D /* tsukushibara.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35F828D848150094170D /* tsukushibara.scn */; };
 		D32D35FB28D848610094170D /* ezoshikashiyuri.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35FA28D848610094170D /* ezoshikashiyuri.scn */; };
-		D32D35FD28D849770094170D /* FlowerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FC28D849770094170D /* FlowerList.swift */; };
+		D32D35FD28D849770094170D /* FlowerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FC28D849770094170D /* FlowerDetail.swift */; };
 		D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */; };
 		D32D360128D86BEB0094170D /* FlowerDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360028D86BEB0094170D /* FlowerDetailViewModel.swift */; };
 		D32D360328D86BFB0094170D /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360228D86BFB0094170D /* Flower.swift */; };
 		D32D360628D86C6C0094170D /* PropertiesFlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360528D86C6C0094170D /* PropertiesFlowerView.swift */; };
-		D32D360828D86D7D0094170D /* FlowerDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360728D86D7D0094170D /* FlowerDetailHeaderView.swift */; };
 		D32D360A28D8745F0094170D /* CustomFlowerSeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32D360928D8745F0094170D /* CustomFlowerSeaker.swift */; };
+		D332629728E0531100E811B9 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = D332629628E0531100E811B9 /* FocusEntity */; };
+		D332629928E0684800E811B9 /* ARSceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D332629828E0684800E811B9 /* ARSceneManager.swift */; };
+		D3991A4B28DBFD8900734467 /* FlowerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3991A4A28DBFD8900734467 /* FlowerList.swift */; };
+		D3991A4D28DBFF6100734467 /* Flowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3991A4C28DBFF6100734467 /* Flowers.swift */; };
+		D3991A4F28DC177900734467 /* hanamazu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3991A4E28DC177900734467 /* hanamazu.usdz */; };
+		D3991A5128DC17F100734467 /* hanamasu.scn in Resources */ = {isa = PBXBuildFile; fileRef = D3991A5028DC17F100734467 /* hanamasu.scn */; };
+		D3991A5528DC18CB00734467 /* tsukushibara.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3991A5428DC18CB00734467 /* tsukushibara.usdz */; };
+		D3B7827628E3074B00B360B6 /* satsuki.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3B7827528E3074B00B360B6 /* satsuki.usdz */; };
+		D3B7827828E3078600B360B6 /* satsuki.scn in Resources */ = {isa = PBXBuildFile; fileRef = D3B7827728E3078600B360B6 /* satsuki.scn */; };
+		D3B7827A28E307F600B360B6 /* tsukushibara.scn in Resources */ = {isa = PBXBuildFile; fileRef = D3B7827928E307F600B360B6 /* tsukushibara.scn */; };
 		D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397628D5913500DA1670 /* AppDelegate.swift */; };
 		D3DA397928D5913500DA1670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397828D5913500DA1670 /* ContentView.swift */; };
 		D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397A28D5913500DA1670 /* Experience.rcproject */; };
@@ -52,16 +57,12 @@
 		D3DA39C628D6EB2100DA1670 /* higanbana.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C528D6EB2000DA1670 /* higanbana.usdz */; };
 		D3DA39C928D6EBB100DA1670 /* ezoshikashiyuri.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39C828D6EBB100DA1670 /* ezoshikashiyuri.usdz */; };
 		D3DA39CB28D6EBE000DA1670 /* oniyuri.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */; };
-		D3DA39CD28D6EC4900DA1670 /* tsukushibara.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CC28D6EC4900DA1670 /* tsukushibara.usdz */; };
 		D3DA39CF28D6EC6A00DA1670 /* ezokisuge.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39CE28D6EC6A00DA1670 /* ezokisuge.usdz */; };
 		D3DA39D128D6EC9000DA1670 /* isotutudi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */; };
-		D3DA39D328D6ECAC00DA1670 /* hanamasu.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D228D6ECAC00DA1670 /* hanamasu.usdz */; };
 		D3DA39D528D6ECD000DA1670 /* yazukanzo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */; };
 		D3DA39D728D6ECFF00DA1670 /* hamaboh.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */; };
 		D3DA39D928D6ED2500DA1670 /* yamatutudi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */; };
 		D3DA39DB28D6ED5900DA1670 /* umanoashigata.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */; };
-		D3DA39DD28D6ED6300DA1670 /* satsuki.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DC28D6ED6300DA1670 /* satsuki.usdz */; };
-		D3DA39DF28D6EDA400DA1670 /* hiradotutuji.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39DE28D6EDA400DA1670 /* hiradotutuji.usdz */; };
 		D3DA39E128D6EDC800DA1670 /* kusaichigo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */; };
 /* End PBXBuildFile section */
 
@@ -91,20 +92,24 @@
 		D32D35E828D845FC0094170D /* isotutudi.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = isotutudi.scn; sourceTree = "<group>"; };
 		D32D35EA28D846220094170D /* yamatutudi.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = yamatutudi.scn; sourceTree = "<group>"; };
 		D32D35EC28D846A30094170D /* kusaichigo.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = kusaichigo.scn; sourceTree = "<group>"; };
-		D32D35EE28D846DC0094170D /* hanamasu.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = hanamasu.scn; path = BouquetApp/UsdzAssets/hanamasu.scn; sourceTree = SOURCE_ROOT; };
-		D32D35F028D847120094170D /* hamaboh.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = hamaboh.scn; path = BouquetApp/UsdzAssets/hamaboh.scn; sourceTree = SOURCE_ROOT; };
-		D32D35F228D847530094170D /* satsuki.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = satsuki.scn; path = BouquetApp/UsdzAssets/satsuki.scn; sourceTree = SOURCE_ROOT; };
-		D32D35F428D847820094170D /* hiradotutuji.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = hiradotutuji.scn; path = BouquetApp/UsdzAssets/hiradotutuji.scn; sourceTree = SOURCE_ROOT; };
-		D32D35F628D847DE0094170D /* umanoashigata.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = umanoashigata.scn; path = BouquetApp/UsdzAssets/umanoashigata.scn; sourceTree = SOURCE_ROOT; };
-		D32D35F828D848150094170D /* tsukushibara.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = tsukushibara.scn; path = BouquetApp/UsdzAssets/tsukushibara.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F028D847120094170D /* hamaboh.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = hamaboh.scn; path = BouquetApp/UsdzAssets/hamaboh.scn; sourceTree = SOURCE_ROOT; };
+		D32D35F628D847DE0094170D /* umanoashigata.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = umanoashigata.scn; path = BouquetApp/UsdzAssets/umanoashigata.scn; sourceTree = SOURCE_ROOT; };
 		D32D35FA28D848610094170D /* ezoshikashiyuri.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ezoshikashiyuri.scn; sourceTree = "<group>"; };
-		D32D35FC28D849770094170D /* FlowerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerList.swift; sourceTree = "<group>"; };
+		D32D35FC28D849770094170D /* FlowerDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetail.swift; sourceTree = "<group>"; };
 		D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowerSceneView.swift; sourceTree = "<group>"; };
 		D32D360028D86BEB0094170D /* FlowerDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailViewModel.swift; sourceTree = "<group>"; };
 		D32D360228D86BFB0094170D /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Flower.swift; path = "../New Group/Flower.swift"; sourceTree = "<group>"; };
 		D32D360528D86C6C0094170D /* PropertiesFlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesFlowerView.swift; sourceTree = "<group>"; };
-		D32D360728D86D7D0094170D /* FlowerDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerDetailHeaderView.swift; sourceTree = "<group>"; };
 		D32D360928D8745F0094170D /* CustomFlowerSeaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowerSeaker.swift; sourceTree = "<group>"; };
+		D332629828E0684800E811B9 /* ARSceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneManager.swift; sourceTree = "<group>"; };
+		D3991A4A28DBFD8900734467 /* FlowerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerList.swift; sourceTree = "<group>"; };
+		D3991A4C28DBFF6100734467 /* Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flowers.swift; sourceTree = "<group>"; };
+		D3991A4E28DC177900734467 /* hanamazu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hanamazu.usdz; sourceTree = "<group>"; };
+		D3991A5028DC17F100734467 /* hanamasu.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = hanamasu.scn; path = BouquetApp/UsdzAssets/hanamasu.scn; sourceTree = SOURCE_ROOT; };
+		D3991A5428DC18CB00734467 /* tsukushibara.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tsukushibara.usdz; sourceTree = "<group>"; };
+		D3B7827528E3074B00B360B6 /* satsuki.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = satsuki.usdz; sourceTree = "<group>"; };
+		D3B7827728E3078600B360B6 /* satsuki.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = satsuki.scn; sourceTree = "<group>"; };
+		D3B7827928E307F600B360B6 /* tsukushibara.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = tsukushibara.scn; path = BouquetApp/UsdzAssets/tsukushibara.scn; sourceTree = SOURCE_ROOT; };
 		D3DA397328D5913500DA1670 /* BouquetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouquetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DA397628D5913500DA1670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3DA397828D5913500DA1670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,16 +128,12 @@
 		D3DA39C528D6EB2000DA1670 /* higanbana.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = higanbana.usdz; sourceTree = "<group>"; };
 		D3DA39C828D6EBB100DA1670 /* ezoshikashiyuri.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ezoshikashiyuri.usdz; sourceTree = "<group>"; };
 		D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = oniyuri.usdz; sourceTree = "<group>"; };
-		D3DA39CC28D6EC4900DA1670 /* tsukushibara.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tsukushibara.usdz; sourceTree = "<group>"; };
 		D3DA39CE28D6EC6A00DA1670 /* ezokisuge.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = ezokisuge.usdz; sourceTree = "<group>"; };
 		D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = isotutudi.usdz; sourceTree = "<group>"; };
-		D3DA39D228D6ECAC00DA1670 /* hanamasu.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hanamasu.usdz; sourceTree = "<group>"; };
 		D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = yazukanzo.usdz; sourceTree = "<group>"; };
 		D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hamaboh.usdz; sourceTree = "<group>"; };
 		D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = yamatutudi.usdz; sourceTree = "<group>"; };
 		D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = umanoashigata.usdz; sourceTree = "<group>"; };
-		D3DA39DC28D6ED6300DA1670 /* satsuki.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = satsuki.usdz; sourceTree = "<group>"; };
-		D3DA39DE28D6EDA400DA1670 /* hiradotutuji.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = hiradotutuji.usdz; sourceTree = "<group>"; };
 		D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = kusaichigo.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,6 +145,7 @@
 				D3DA39A728D593CB00DA1670 /* MultipeerHelper in Frameworks */,
 				D3DA39AA28D5978A00DA1670 /* FirebaseAuth in Frameworks */,
 				D3DA39B228D5978A00DA1670 /* FirebaseFirestoreSwift in Frameworks */,
+				D332629728E0531100E811B9 /* FocusEntity in Frameworks */,
 				D3DA39B028D5978A00DA1670 /* FirebaseFirestoreCombine-Community in Frameworks */,
 				D3DA39B428D5978A00DA1670 /* FirebaseStorage in Frameworks */,
 				D3DA39AE28D5978A00DA1670 /* FirebaseFirestore in Frameworks */,
@@ -172,6 +174,7 @@
 		D32D35DA28D840310094170D /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				D332629828E0684800E811B9 /* ARSceneManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -179,18 +182,17 @@
 		D32D35E128D8440C0094170D /* ScnAssets */ = {
 			isa = PBXGroup;
 			children = (
-				D32D35F828D848150094170D /* tsukushibara.scn */,
-				D32D35F628D847DE0094170D /* umanoashigata.scn */,
-				D32D35F428D847820094170D /* hiradotutuji.scn */,
-				D32D35F228D847530094170D /* satsuki.scn */,
-				D32D35F028D847120094170D /* hamaboh.scn */,
-				D32D35EE28D846DC0094170D /* hanamasu.scn */,
-				D32D35DF28D843DA0094170D /* higanbana.scn */,
+				D3B7827928E307F600B360B6 /* tsukushibara.scn */,
 				D32D35E228D8446C0094170D /* ezokisuge.scn */,
+				D32D35FA28D848610094170D /* ezoshikashiyuri.scn */,
+				D32D35F028D847120094170D /* hamaboh.scn */,
+				D3991A5028DC17F100734467 /* hanamasu.scn */,
+				D32D35DF28D843DA0094170D /* higanbana.scn */,
+				D32D35E828D845FC0094170D /* isotutudi.scn */,
 				D32D35EC28D846A30094170D /* kusaichigo.scn */,
 				D32D35E628D845570094170D /* oniyuri.scn */,
-				D32D35E828D845FC0094170D /* isotutudi.scn */,
-				D32D35FA28D848610094170D /* ezoshikashiyuri.scn */,
+				D3B7827728E3078600B360B6 /* satsuki.scn */,
+				D32D35F628D847DE0094170D /* umanoashigata.scn */,
 				D32D35E428D8451B0094170D /* yabukanzo.scn */,
 				D32D35EA28D846220094170D /* yamatutudi.scn */,
 			);
@@ -201,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				D32D360228D86BFB0094170D /* Flower.swift */,
+				D3991A4C28DBFF6100734467 /* Flowers.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,7 +280,8 @@
 			children = (
 				D3DA39B728D59FCE00DA1670 /* Home.swift */,
 				D3DA39B928D6D91C00DA1670 /* MainARView.swift */,
-				D32D35FC28D849770094170D /* FlowerList.swift */,
+				D32D35FC28D849770094170D /* FlowerDetail.swift */,
+				D3991A4A28DBFD8900734467 /* FlowerList.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -295,7 +299,6 @@
 			children = (
 				D32D35FE28D84A390094170D /* CustomFlowerSceneView.swift */,
 				D32D360528D86C6C0094170D /* PropertiesFlowerView.swift */,
-				D32D360728D86D7D0094170D /* FlowerDetailHeaderView.swift */,
 				D32D360928D8745F0094170D /* CustomFlowerSeaker.swift */,
 			);
 			path = ViewParts;
@@ -320,20 +323,19 @@
 		D3DA39C728D6EB2E00DA1670 /* UsdzAssets */ = {
 			isa = PBXGroup;
 			children = (
-				D3DA39C528D6EB2000DA1670 /* higanbana.usdz */,
 				D3DA39CE28D6EC6A00DA1670 /* ezokisuge.usdz */,
-				D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */,
-				D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */,
-				D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */,
-				D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */,
-				D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */,
-				D3DA39D228D6ECAC00DA1670 /* hanamasu.usdz */,
-				D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */,
-				D3DA39DC28D6ED6300DA1670 /* satsuki.usdz */,
-				D3DA39DE28D6EDA400DA1670 /* hiradotutuji.usdz */,
-				D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */,
-				D3DA39CC28D6EC4900DA1670 /* tsukushibara.usdz */,
 				D3DA39C828D6EBB100DA1670 /* ezoshikashiyuri.usdz */,
+				D3DA39D628D6ECFF00DA1670 /* hamaboh.usdz */,
+				D3991A4E28DC177900734467 /* hanamazu.usdz */,
+				D3DA39C528D6EB2000DA1670 /* higanbana.usdz */,
+				D3DA39D028D6EC9000DA1670 /* isotutudi.usdz */,
+				D3DA39E028D6EDC800DA1670 /* kusaichigo.usdz */,
+				D3DA39CA28D6EBDF00DA1670 /* oniyuri.usdz */,
+				D3B7827528E3074B00B360B6 /* satsuki.usdz */,
+				D3991A5428DC18CB00734467 /* tsukushibara.usdz */,
+				D3DA39DA28D6ED5900DA1670 /* umanoashigata.usdz */,
+				D3DA39D828D6ED2500DA1670 /* yamatutudi.usdz */,
+				D3DA39D428D6ECD000DA1670 /* yazukanzo.usdz */,
 			);
 			path = UsdzAssets;
 			sourceTree = "<group>";
@@ -363,6 +365,7 @@
 				D3DA39B128D5978A00DA1670 /* FirebaseFirestoreSwift */,
 				D3DA39B328D5978A00DA1670 /* FirebaseStorage */,
 				D3DA39B528D5978A00DA1670 /* FirebaseStorageCombine-Community */,
+				D332629628E0531100E811B9 /* FocusEntity */,
 			);
 			productName = BouquetApp;
 			productReference = D3DA397328D5913500DA1670 /* BouquetApp.app */;
@@ -439,6 +442,7 @@
 			packageReferences = (
 				D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */,
 				D3DA39A828D5978A00DA1670 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				D332629528E0531100E811B9 /* XCRemoteSwiftPackageReference "FocusEntity" */,
 			);
 			productRefGroup = D3DA397428D5913500DA1670 /* Products */;
 			projectDirPath = "";
@@ -462,30 +466,28 @@
 				D3DA39D728D6ECFF00DA1670 /* hamaboh.usdz in Resources */,
 				D32D35D928D83F9C0094170D /* GoogleService-Info.plist in Resources */,
 				D3DA398028D5913700DA1670 /* Preview Assets.xcassets in Resources */,
-				D32D35F328D847530094170D /* satsuki.scn in Resources */,
+				D3B7827628E3074B00B360B6 /* satsuki.usdz in Resources */,
 				D32D35EB28D846220094170D /* yamatutudi.scn in Resources */,
-				D32D35F928D848150094170D /* tsukushibara.scn in Resources */,
+				D3991A5128DC17F100734467 /* hanamasu.scn in Resources */,
 				D32D35ED28D846A30094170D /* kusaichigo.scn in Resources */,
-				D32D35EF28D846DC0094170D /* hanamasu.scn in Resources */,
 				D3DA397D28D5913700DA1670 /* Assets.xcassets in Resources */,
 				D32D35E728D845570094170D /* oniyuri.scn in Resources */,
 				D32D35F728D847DE0094170D /* umanoashigata.scn in Resources */,
 				D32D35E328D8446C0094170D /* ezokisuge.scn in Resources */,
 				D3DA39C928D6EBB100DA1670 /* ezoshikashiyuri.usdz in Resources */,
+				D3B7827A28E307F600B360B6 /* tsukushibara.scn in Resources */,
 				D32D35FB28D848610094170D /* ezoshikashiyuri.scn in Resources */,
-				D32D35F528D847820094170D /* hiradotutuji.scn in Resources */,
 				D3DA39CF28D6EC6A00DA1670 /* ezokisuge.usdz in Resources */,
 				D3DA39E128D6EDC800DA1670 /* kusaichigo.usdz in Resources */,
+				D3991A4F28DC177900734467 /* hanamazu.usdz in Resources */,
 				D32D35E528D8451B0094170D /* yabukanzo.scn in Resources */,
-				D3DA39D328D6ECAC00DA1670 /* hanamasu.usdz in Resources */,
 				D32D35F128D847120094170D /* hamaboh.scn in Resources */,
-				D3DA39CD28D6EC4900DA1670 /* tsukushibara.usdz in Resources */,
+				D3991A5528DC18CB00734467 /* tsukushibara.usdz in Resources */,
 				D3DA39D528D6ECD000DA1670 /* yazukanzo.usdz in Resources */,
 				D3DA39C628D6EB2100DA1670 /* higanbana.usdz in Resources */,
 				D3DA39CB28D6EBE000DA1670 /* oniyuri.usdz in Resources */,
+				D3B7827828E3078600B360B6 /* satsuki.scn in Resources */,
 				D3DA39D928D6ED2500DA1670 /* yamatutudi.usdz in Resources */,
-				D3DA39DF28D6EDA400DA1670 /* hiradotutuji.usdz in Resources */,
-				D3DA39DD28D6ED6300DA1670 /* satsuki.usdz in Resources */,
 				D32D35E928D845FC0094170D /* isotutudi.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -511,20 +513,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D32D360828D86D7D0094170D /* FlowerDetailHeaderView.swift in Sources */,
 				D3DA39C128D6DBEE00DA1670 /* MainARViewContainer.swift in Sources */,
 				D3DA397928D5913500DA1670 /* ContentView.swift in Sources */,
 				D32D360128D86BEB0094170D /* FlowerDetailViewModel.swift in Sources */,
 				D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */,
 				D3DA39B828D59FCE00DA1670 /* Home.swift in Sources */,
+				D3991A4B28DBFD8900734467 /* FlowerList.swift in Sources */,
 				D32D360328D86BFB0094170D /* Flower.swift in Sources */,
 				D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */,
 				D32D360A28D8745F0094170D /* CustomFlowerSeaker.swift in Sources */,
 				D3DA39C428D6DCA100DA1670 /* CSharp.swift in Sources */,
 				D32D360628D86C6C0094170D /* PropertiesFlowerView.swift in Sources */,
-				D32D35FD28D849770094170D /* FlowerList.swift in Sources */,
+				D332629928E0684800E811B9 /* ARSceneManager.swift in Sources */,
+				D32D35FD28D849770094170D /* FlowerDetail.swift in Sources */,
 				D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */,
 				D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */,
+				D3991A4D28DBFF6100734467 /* Flowers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,6 +863,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D332629528E0531100E811B9 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/maxxfrazer/MultipeerHelper.git";
@@ -878,6 +890,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		D332629628E0531100E811B9 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D332629528E0531100E811B9 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
 		D3DA39A628D593CB00DA1670 /* MultipeerHelper */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = D3DA39A528D593CB00DA1670 /* XCRemoteSwiftPackageReference "MultipeerHelper" */;

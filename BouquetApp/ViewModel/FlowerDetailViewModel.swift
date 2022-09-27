@@ -10,7 +10,11 @@ import SwiftUI
 
 final class FlowerDetailViewModel: ObservableObject {
     
-    @Published var scene: SCNScene? = .init(named: "satsuki.scn")
+    @Published var scene: SCNScene?
     @Published var isVerticleLook: Bool = true
-    
+    let flower: Flower
+    init (flower: Flower) {
+        scene = .init(named: flower.name + ".scn")
+        self.flower = flower
+    }
 }
