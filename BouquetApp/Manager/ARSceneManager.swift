@@ -37,5 +37,4 @@ final class ARSceneManager: ObservableObject {
             self?.selectedFlower?.scale *= 0.025
         }
     }
-    
 }

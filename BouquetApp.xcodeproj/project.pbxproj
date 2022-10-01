@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D323165428E804E000C022E0 /* ARSceneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D323165328E804E000C022E0 /* ARSceneViewModel.swift */; };
 		D32D35D928D83F9C0094170D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D32D35D828D83F9C0094170D /* GoogleService-Info.plist */; };
 		D32D35E028D843DA0094170D /* higanbana.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35DF28D843DA0094170D /* higanbana.scn */; };
 		D32D35E328D8446C0094170D /* ezokisuge.scn in Resources */ = {isa = PBXBuildFile; fileRef = D32D35E228D8446C0094170D /* ezokisuge.scn */; };
@@ -35,7 +36,7 @@
 		D3B7827828E3078600B360B6 /* satsuki.scn in Resources */ = {isa = PBXBuildFile; fileRef = D3B7827728E3078600B360B6 /* satsuki.scn */; };
 		D3B7827A28E307F600B360B6 /* tsukushibara.scn in Resources */ = {isa = PBXBuildFile; fileRef = D3B7827928E307F600B360B6 /* tsukushibara.scn */; };
 		D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397628D5913500DA1670 /* AppDelegate.swift */; };
-		D3DA397928D5913500DA1670 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397828D5913500DA1670 /* ContentView.swift */; };
+		D3DA397928D5913500DA1670 /* ARSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397828D5913500DA1670 /* ARSceneView.swift */; };
 		D3DA397B28D5913500DA1670 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = D3DA397A28D5913500DA1670 /* Experience.rcproject */; };
 		D3DA397D28D5913700DA1670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DA397C28D5913700DA1670 /* Assets.xcassets */; };
 		D3DA398028D5913700DA1670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DA397F28D5913700DA1670 /* Preview Assets.xcassets */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D323165328E804E000C022E0 /* ARSceneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneViewModel.swift; sourceTree = "<group>"; };
 		D32D35D828D83F9C0094170D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D32D35DF28D843DA0094170D /* higanbana.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = higanbana.scn; sourceTree = "<group>"; };
 		D32D35E228D8446C0094170D /* ezokisuge.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ezokisuge.scn; sourceTree = "<group>"; };
@@ -109,10 +111,10 @@
 		D3991A5428DC18CB00734467 /* tsukushibara.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = tsukushibara.usdz; sourceTree = "<group>"; };
 		D3B7827528E3074B00B360B6 /* satsuki.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = satsuki.usdz; sourceTree = "<group>"; };
 		D3B7827728E3078600B360B6 /* satsuki.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = satsuki.scn; sourceTree = "<group>"; };
-		D3B7827928E307F600B360B6 /* tsukushibara.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = tsukushibara.scn; path = BouquetApp/UsdzAssets/tsukushibara.scn; sourceTree = SOURCE_ROOT; };
+		D3B7827928E307F600B360B6 /* tsukushibara.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = tsukushibara.scn; path = BouquetApp/UsdzAssets/tsukushibara.scn; sourceTree = SOURCE_ROOT; };
 		D3DA397328D5913500DA1670 /* BouquetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BouquetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DA397628D5913500DA1670 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3DA397828D5913500DA1670 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3DA397828D5913500DA1670 /* ARSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSceneView.swift; sourceTree = "<group>"; };
 		D3DA397A28D5913500DA1670 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		D3DA397C28D5913700DA1670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3DA397F28D5913700DA1670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -242,7 +244,7 @@
 				D3DA39BD28D6DBB500DA1670 /* ViewContainer */,
 				D3DA39BB28D6D92400DA1670 /* View */,
 				D3DA397628D5913500DA1670 /* AppDelegate.swift */,
-				D3DA397828D5913500DA1670 /* ContentView.swift */,
+				D3DA397828D5913500DA1670 /* ARSceneView.swift */,
 				D3DA397A28D5913500DA1670 /* Experience.rcproject */,
 				D3DA397C28D5913700DA1670 /* Assets.xcassets */,
 				D3DA397E28D5913700DA1670 /* Preview Content */,
@@ -308,6 +310,7 @@
 			isa = PBXGroup;
 			children = (
 				D32D360028D86BEB0094170D /* FlowerDetailViewModel.swift */,
+				D323165328E804E000C022E0 /* ARSceneViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -514,7 +517,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3DA39C128D6DBEE00DA1670 /* MainARViewContainer.swift in Sources */,
-				D3DA397928D5913500DA1670 /* ContentView.swift in Sources */,
+				D3DA397928D5913500DA1670 /* ARSceneView.swift in Sources */,
 				D32D360128D86BEB0094170D /* FlowerDetailViewModel.swift in Sources */,
 				D3DA397728D5913500DA1670 /* AppDelegate.swift in Sources */,
 				D3DA39B828D59FCE00DA1670 /* Home.swift in Sources */,
@@ -528,6 +531,7 @@
 				D32D35FD28D849770094170D /* FlowerDetail.swift in Sources */,
 				D3DA39BA28D6D91C00DA1670 /* MainARView.swift in Sources */,
 				D32D35FF28D84A390094170D /* CustomFlowerSceneView.swift in Sources */,
+				D323165428E804E000C022E0 /* ARSceneViewModel.swift in Sources */,
 				D3991A4D28DBFF6100734467 /* Flowers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

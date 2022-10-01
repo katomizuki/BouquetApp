@@ -105,6 +105,7 @@ final class MainARView: ARView {
             do {
                 let mapData = try NSKeyedArchiver.archivedData(withRootObject: map,
                                                                requiringSecureCoding: true)
+                print("どうよ！！")
                 self.multipeerHelp.sendToAllPeers(mapData)
             } catch {
                 print(error.localizedDescription)

@@ -106,7 +106,7 @@ struct Home: View {
                             Spacer()
                             // Login Button
                             NavigationLink {
-                                ContentView()
+                                ARSceneView()
                             } label: {
                                 Text("Login")
                                     .fontWeight(.bold)
@@ -169,7 +169,7 @@ struct Home: View {
                     HStack {
                         Spacer()
                         NavigationLink {
-                            ContentView()
+                            ARSceneView()
                         } label: {
                             Text("Sign up")
                                 .fontWeight(.bold)

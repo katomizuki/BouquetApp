@@ -12,17 +12,31 @@
 import SwiftUI
 import RealityKit
 
-struct ContentView : View {
-    @State private var isShowFullModal: Bool = false
+struct ARSceneView : View {
+    @StateObject var viewModel: ARSceneViewModel = ARSceneViewModel()
     @EnvironmentObject var arSceneManager: ARSceneManager
+
     var body: some View {
         ZStack(alignment: .bottom) {
-            MainARViewContainer()
+            
+            MainARViewContainer(viewModel: viewModel)
+            
             if !arSceneManager.isSelectedModel {
                 HStack {
                     Spacer()
                     Button(action: {
-                        self.isShowFullModal = true
+                        viewModel.isTappedSendButton.toggle()
+                    }, label: {
+                        Image(systemName: "paperplane.fill")
+                            .resizable()
+                            .frame(width: 50, height: 50)
+                            .foregroundColor(.white)
+                    })
+                    
+                    Spacer()
+                    
+                    Button(action: {
+                        viewModel.isShowFullModal.toggle()
                     }, label: {
                         Image(systemName: "plus.circle.fill")
                             .resizable()
@@ -37,28 +51,9 @@ struct ContentView : View {
         }
         .edgesIgnoringSafeArea(.all)
         .statusBarHidden()
-        .fullScreenCover(isPresented: $isShowFullModal) {
-            FlowerList(isShowFullModal: $isShowFullModal)
+        .fullScreenCover(isPresented: $viewModel.isShowFullModal) {
+            FlowerList(isShowFullModal: $viewModel.isShowFullModal)
         }
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-        
-        // Load the "Box" scene from the "Experience" Reality File
-        let boxAnchor = try! Experience.loadBox()
-        
-        // Add the box anchor to the scene
-        arView.scene.anchors.append(boxAnchor)
-        
-        return arView
-        
-    }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
-}

@@ -11,6 +11,7 @@ import ARKit
 
 struct MainARViewContainer: UIViewRepresentable {
     @EnvironmentObject var arSceneManager: ARSceneManager
+    @ObservedObject var viewModel: ARSceneViewModel
     
     typealias UIViewType = MainARView
     
@@ -20,6 +21,7 @@ struct MainARViewContainer: UIViewRepresentable {
             arView.setupFocusEntity(isSelectedModel: arSceneManager.isSelectedModel)
             self.setupModelEntity(arView)
             self.changeSelectedModelStatus(arView)
+            self.sendARWorld(arView)
         })
         return arView
     }
@@ -39,6 +41,14 @@ struct MainARViewContainer: UIViewRepresentable {
     func changeSelectedModelStatus(_ arView: MainARView) {
         if arView.selectedModelEntity == nil {
             arSceneManager.isSelectedModel = false
+        }
+    }
+    
+    func sendARWorld(_ arView: MainARView) {
+        if viewModel.isTappedSendButton {
+            arView.sendARWorld()
+            viewModel.isTappedSendButton.toggle()
+            print("保存開始！")
         }
     }
 }
