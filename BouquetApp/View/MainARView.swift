@@ -10,6 +10,7 @@ import RealityKit
 import MultipeerHelper
 import MultipeerConnectivity
 import FocusEntity
+import CoreHaptics
 
 final class MainARView: ARView {
    
@@ -100,12 +101,12 @@ final class MainARView: ARView {
     }
     
     func sendARWorld() {
+        eventHaptics()
         session.getCurrentWorldMap { worldMap, error in
             guard let map = worldMap else { return }
             do {
                 let mapData = try NSKeyedArchiver.archivedData(withRootObject: map,
                                                                requiringSecureCoding: true)
-                print("どうよ！！")
                 self.multipeerHelp.sendToAllPeers(mapData)
             } catch {
                 print(error.localizedDescription)
@@ -120,7 +121,7 @@ extension MainARView: ARSessionDelegate {
     }
     
     func session(_ session: ARSession, didAdd anchors: [ARAnchor]) {
-        
+        print("Anchorが追加された")
     }
 }
 
@@ -133,7 +134,9 @@ extension MainARView: MultipeerHelperDelegate {
     }
     
     func receivedData(peerHelper: MultipeerHelper, _ data: Data, _ peer: MCPeerID) {
-        print(String(data: data, encoding: .unicode) ?? "Data is not a unicode string")
+        
+        eventHaptics()
+        
         if let worldMap = try? NSKeyedUnarchiver.unarchivedObject(ofClass: ARWorldMap.self, from: data) {
             let config = ARWorldTrackingConfiguration()
             config.initialWorldMap = worldMap
@@ -143,5 +146,27 @@ extension MainARView: MultipeerHelperDelegate {
     
     func peerJoined(peerHelper: MultipeerHelper, _ peer: MCPeerID) {
         print("new peer has joined: \(peer.displayName)")
+    }
+}
+
+extension MainARView {
+    func eventHaptics() {
+        // CoreHapticsをする
+        guard let  hapticEngine = try? CHHapticEngine() else { return }
+        let pattern = self.makeHapticPattern()
+        guard let player = try? hapticEngine.makePlayer(with: pattern) else { return }
+        try! player.start(atTime: 0)
+    }
+    
+    private func makeHapticPattern() -> CHHapticPattern {
+        let hapticEvent = CHHapticEvent(eventType: .hapticTransient,
+                                       parameters: [CHHapticEventParameter(parameterID: .hapticIntensity,
+                                                                           value: 1),
+                                                    CHHapticEventParameter(parameterID: .hapticIntensity,
+                                                                           value: 1)],
+                                       relativeTime: 0)
+        let pattern = try! CHHapticPattern(events: [hapticEvent], parameters: [])
+        
+        return pattern
     }
 }
